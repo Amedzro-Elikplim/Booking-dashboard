@@ -17,3 +17,20 @@
 .restaurant-container span {
   text-align: center;
 }
+
+.restaurant-container > div {
+  display: flex;
+}
+
+.restaurant-container > div span:first-child {
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+}
